@@ -7,7 +7,6 @@ const LogOutButton = ({ onLogOut }) => {
 
     return (
         <button className="btn btn-primary" onClick={onLogOut}>
-            {" "}
             LogOut
         </button>
     );
